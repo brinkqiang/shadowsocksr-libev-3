@@ -12,7 +12,7 @@ cmake_minimum_required(VERSION 2.6)
 set(PROJECT_NAME shadowsocks-libev)
 set(RELEASE_DATE 2015-09-03)
 project(${PROJECT_NAME})
-
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=gnu99")
 set(VERSION 2.5.6)
 
 
